@@ -57,5 +57,5 @@ If you encounter any issues or have questions or suggestions, please feel free t
 This package was inspired by the need for a simple CSV generation utility.
 Special thanks to the open-source community for their valuable contributions.
 
-Author
-Aqeel Sahi
+> Author
+> Aqeel Sahi
