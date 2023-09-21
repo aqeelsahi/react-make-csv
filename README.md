@@ -20,17 +20,28 @@ fileName (String): The desired file name for the generated CSV file.
 Here's an example of using react-make-csv to create and trigger a CSV file download:
 ```tsx
 import { generateCSV } from "react-make-csv";
+import React from "react";
 
-const Component = () => {
-    const data = [
-        ['Name', 'Email'],
-        ['Alice', 'alice@example.com'],
-        ['Bob', 'bob@example.com'],
-      ];
-  return <button onClick={() => generateCSV(data, 'myfile')}>Download</button>
-}
+const Component: React.FC = () => {
+  const data = [
+    ['Name', 'Email'],
+    ['Alice', 'alice@example.com'],
+    ['Bob', 'bob@example.com'],
+  ];
 
-export default Component
+  const downloadCSV = () => generateCSV(data, 'myfile');
+
+  return (
+    <div
+      style={{ cursor: 'pointer', textDecoration: 'underline' }}
+      onClick={downloadCSV}
+    >
+      Download
+    </div>
+  );
+};
+
+export default Component;
 ```
 
 ## License
