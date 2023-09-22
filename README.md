@@ -23,10 +23,18 @@ import { generateCSV } from "react-make-csv";
 import React from "react";
 
 const Component: React.FC = () => {
-  const data = [
-    ['Name', 'Email'],
-    ['Alice', 'alice@example.com'],
-    ['Bob', 'bob@example.com'],
+    const data: string[][] = [
+    ['Name', 'Email', 'Number'],
+    ['Alice', 'alice@example.com', '123'],
+    ['Bob', 'bob@example.com', '456'],
+    ['Charlie', 'charlie@example.com', '789'],
+    ['David', 'david@example.com', '101'],
+    ['Eva', 'eva@example.com', '202'],
+    ['Frank', 'frank@example.com', '303'],
+    ['Grace', 'grace@example.com', '404'],
+    ['Hank', 'hank@example.com', '505'],
+    ['Ivy', 'ivy@example.com', '606'],
+    ['Jack', 'jack@example.com', '707'],
   ];
 
   const downloadCSV = () => generateCSV(data, 'myfile');
