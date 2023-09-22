@@ -31,16 +31,21 @@
     "node": ">=12.0"
   },
   "keywords": [
-    "boilerplate",
-    "template",
-    "typescript",
-    "vscode",
-    "jest",
-    "husky",
-    "commitizen",
-    "semantic-release",
-    "codecov"
-  ],
+    "CSV",
+    "React",
+    "data",
+    "table",
+    "grid",
+    "parsing",
+    "file",
+    "parser",
+    "Excel",
+    "spreadsheet",
+    "data processing",
+    "data conversion",
+    "data export",
+    "data import"
+],
   "bugs": {
     "url": "https://github.com/aqeelsahi/react-make-csv/issues"
   },
