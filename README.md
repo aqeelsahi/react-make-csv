@@ -11,9 +11,9 @@ or
 `yarn add react-make-csv`
 
 ## Parameters
-data (Array): An array of string arrays representing the data to be converted into CSV format.
+> data (Array): An array of string arrays representing the data to be converted into CSV format.
 
-fileName (String): The desired file name for the generated CSV file.
+> fileName (String): The desired file name for the generated CSV file.
 
 
 ## Example
